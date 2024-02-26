@@ -1,0 +1,24 @@
+
+In the assesment question the Output is 8 
+
+
+
+similarly,for
+
+#include <stdio.h>
+
+typedef struct {
+    int A;
+    char B;
+    char C;
+    char D,n,m;
+} InfoData;
+
+int main(int argc, char *argv[]) {
+    // Calculate size of structure
+    printf("\n Size of Structure = %d\n\n", sizeof(InfoData));
+    return 0;
+}
+
+here we can see that the output is 12 but the size of char is 1 byte and int is 4 byte 
+therefore 4+1+1+1+1+1 = 9 but is padded to the mutiple of 4bytes 12 as it is the highest byte size.
