@@ -1,0 +1,6 @@
+*(*(*(*(a + i) + j) + k) + 2)
+
+a[i] is represented as *(a + i)
+a[i][j] is represented as *(*(a + i)+j)
+
+a[i][j][k] is represented as *(*(*(a + i) + j ) + k)
