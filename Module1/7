@@ -1,0 +1,4 @@
+the output is 24 
+because there is padding for both A and C
+ie 
+A+7bytes(padding) + B + C+(7bytes padding)
